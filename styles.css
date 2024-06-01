@@ -115,8 +115,12 @@ body {
 }
 
 .pieChart{
-    height: 25%;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
 .chart-row{
     display: flex;
     flex-wrap: wrap;
