@@ -1,0 +1,134 @@
+body {
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #F6F5F1;
+    color: rgb(0, 0, 0);
+}
+
+#header h1 {
+    width: 80%;
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+.filters {
+    font-family: Trebuchet MS, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 80;
+    background-color: #ff6600;
+}
+
+.filter {
+    width: 50%;
+    font-family: Trebuchet MS, sans-serif;
+    display: flex;
+    align-items: center;
+}
+
+.filter label {
+    margin-right: 5px;
+    color: white;
+}
+
+.filter select {
+    padding: 5px;
+}
+
+.stats {
+    width: 50%;
+    display: flex;
+}
+
+.stat {
+    text-align: center;
+    width: 50%;
+    margin-right: 20px;
+    color: white;
+}
+
+.stat-box {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.stat-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.stat-box p {
+    font-size: 24px;
+    margin: 0;
+}
+
+.statz {
+    text-align: center;
+    width: 50%;
+    margin-right: 20px;
+    color: white;
+}
+
+.statz-box {
+    margin: 0 20px;
+    text-align: center;
+}
+
+.statz-box h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.statz-box p {
+    font-size: 24px;
+    margin: 0;
+}
+
+#teks{
+    width: 100%;
+    background-color: #F6F5F1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+#tekz{
+    width: 100%;
+    background-color: #F6F5F1;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+}
+
+#chartsRow1, #chartsRow2, #chartsRow3 {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.barChart1, .barChart2,.lineChart,.pieChart{
+    width: 50%;
+    height: 100%;
+}
+
+#chartsRow1 > div, #chartsRow2 > div, #chartsRow3 > div {
+    width: 30%;
+}
+
+#dataTableContainer {
+    padding: 20px;
+}
+
+#dataTable {
+    width: 100%;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Food Order Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+</head>
+<body>
+    <div id="header">
+        <img src="dataset-cover.png" alt="Logo" width="50" height="25">
+        <h1>Online Food Order</h1>
+    </div>
+    <div class="filters">
+        <div class="filter">
+            <label for="filterHasil">Hasil:</label>
+            <select id="filterHasil">
+                <option value="all">select</option>
+                <option value="true">True</option>
+                <option value="false">False</option>
+            </select>
+        </div>
+        <div class="filter">
+            <label for="filterGender">Gender:</label>
+            <select id="filterGender">
+                <option value="all">select</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <span id="totalUsers">Total users</span>
+                <br>
+                <div id="teks">388</div>
+            </div>
+            <div class="statz">
+                <span id="averageAge">The average age of users</span>
+                <br>
+                <div id="tekz">24.63</div>
+            </div>
+        </div>
+    </div>
+    <div id="chartsRow1">
+        <div>
+            <canvas id="barChart1"></canvas>
+        </div>
+        <div>
+            <canvas id="barChart2"></canvas>
+        </div>
+    </div>
+    <div id="chartsRow2">
+        <div>
+            <canvas id="lineChart"></canvas>
+        </div>
+        <div>
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+    <div id="dataTableContainer">
+        <table id="dataTable" class="display" style="width:100%">
+            <thead>
+                <tr>
+                    <th>Age Group</th>
+                    <th>Gender</th>
+                    <th>Occupation</th>
+                    <th>Monthly Income</th>
+                    <th>Feedback</th>
+                    <th>Hasil</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
