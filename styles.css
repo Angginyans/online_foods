@@ -105,6 +105,7 @@ body {
     color: black;
     text-align: center;
 }
+
 #tekz{
     width: 100%;
     background-color: #F6F5F1;
@@ -113,7 +114,10 @@ body {
     text-align: center;
 }
 
-.chart-row {
+.pieChart{
+    height: 25%;
+}
+.chart-row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
