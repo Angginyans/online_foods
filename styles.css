@@ -19,6 +19,10 @@ body {
     font-size: 24px;
 }
 
+.container {
+    padding: 20px;
+}
+
 .filters {
     font-family: Trebuchet MS;
     display: flex;
@@ -26,6 +30,7 @@ body {
     padding: 10px;
     width: 80;
     background-color: #ff6600;
+    border-radius: 10px;
 }
 
 .filter {
@@ -108,33 +113,35 @@ body {
     text-align: center;
 }
 
-#chartsRow1, #chartsRow2, #chartsRow3 {
-    width: 100%;
-    height: 200px;
+.chart-row {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
-    margin: 20px 0;
+    margin-bottom: 20px;
 }
 
-.barChart1, .barChart2,.lineChart,.pieChart{
-    width: 50%;
-    height: 100%;
-}
-
-#chartsRow1 > div, #chartsRow2 > div, #chartsRow3 > div {
-    width: 30%;
+.chart-row > div {
+    flex: 1 1 calc(50% - 10px);
+    margin-bottom: 20px;
 }
 
 #dataTableContainer {
-    padding: 20px;
+    overflow-x: auto;
 }
 
 #dataTable {
     width: 100%;
 }
 
-footer{
-    font-family: Trebuchet MS;
+footer {
     background-color: #ff6600;
     text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .filter, .stat, .statz, .chart-row,.lineChart,.dataTable > div {
+        flex: 1 1 100%;
+    }
 }
