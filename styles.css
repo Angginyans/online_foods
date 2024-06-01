@@ -132,3 +132,8 @@ body {
 #dataTable {
     width: 100%;
 }
+
+footer{
+    background-color: #ff6600;
+    text-align: center;
+}
