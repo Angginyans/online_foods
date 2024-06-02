@@ -100,6 +100,7 @@ body {
 }
 
 #teks{
+    margin-top: 5px;
     font-size:15px;
     width: 100%;
     background-color: #F6F5F1;
@@ -109,6 +110,7 @@ body {
 }
 
 #tekz{
+    margin-top: 5px;
     font-size:15px;
     width: 100%;
     background-color: #F6F5F1;
