@@ -1,7 +1,5 @@
 body {
     font-family: Trebuchet MS;
-    margin: 0;
-    padding: 0;
     background-color: #f9f9f9;
 }
 
@@ -9,7 +7,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #F6F5F1;
+    background-color: #f9f9f9;
     color: rgb(0, 0, 0);
 }
 
@@ -21,6 +19,8 @@ body {
 
 .container {
     padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
 }
 
 .filters {
