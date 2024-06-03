@@ -147,6 +147,7 @@ body {
 }
 
 footer {
+    margin-top: 15px;
     background-color: #ff6600;
     text-align: center;
     padding: 10px;
